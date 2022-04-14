@@ -6,6 +6,8 @@ public class problem12_2 {
         double a, b;
         String c;
 
+        System.out.println("changed");
+
         System.out.print("연산>>");
         a = sc.nextDouble();
         c = sc.next();
