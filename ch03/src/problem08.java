@@ -17,8 +17,8 @@ public class problem08 {
         }
 
         for(int i = 0; i<num; i++){
-            System.out.print(arr[i] + " ");
             if((i>0)&&(i%10 == 0)) System.out.println();
+            System.out.print(arr[i] + " ");
         }
         sc.close();
     }
